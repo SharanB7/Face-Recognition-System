@@ -3,6 +3,8 @@
 ## Project Overview
 This project is a scalable, multi-tier cloud application for face recognition using Amazon Web Services (AWS). The system is designed to handle concurrent requests, auto-scale according to the load, and process inputs efficiently. The application leverages EC2 instances, S3 buckets for storage, SQS queues for communication, and deep learning models using PyTorch for inference.
 
+![Architecture](assets/scalable.png)
+
 ### Key Features
 - **Multi-Tier Architecture**: Separation into web, app, and data tiers for modularity and scalability.
 - **Auto-Scaling**: Custom algorithm to scale up to 20 EC2 instances based on request volume.
