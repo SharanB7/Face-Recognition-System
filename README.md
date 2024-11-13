@@ -3,6 +3,8 @@
 ## Project Overview
 This project is a scalable, serverless cloud application for face recognition, leveraging Amazon Web Services (AWS) to build an efficient, event-driven pipeline. The system processes video uploads, splits them into frames, and performs face recognition using a pre-trained deep learning model. The architecture ensures that the application scales seamlessly and handles input concurrently without server management.
 
+![Architecture](assets/serverless.png)
+
 ### Key Features
 - **Serverless Architecture**: Uses AWS Lambda functions for processing video frames and running face recognition.
 - **Automated Trigger**: S3 event triggers to automatically start processing when a video is uploaded.
